@@ -2,6 +2,12 @@
 
 This is a playground to use [maven-jlink-plugin](https://github.com/apache/maven-jlink-plugin) with JavaFX application.
 
+## Create native image
+
+```
+mvn jlink:jlink
+```
+
 ## Problem
 
 Using v3.1.0 of the plugin, `mvn jlink:jlink` fails with the following exception:
